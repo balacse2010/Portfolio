@@ -12916,6 +12916,7 @@ figcaption {
   background: var(--background-color-1);
   box-shadow: var(--shadow-1);
   border-radius: 6px;
+  display: none;
 }
 .slide .thumbnail .inner {
   text-align: center;
@@ -12953,7 +12954,7 @@ figcaption {
   }
 }
 .slide.slider-style-1.with-square-box {
-  padding-top: 200px;
+  padding-top: 140px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slide.slider-style-1.with-square-box {
@@ -15417,7 +15418,7 @@ div#featured-project-carousel {
 }
 .client-card .main-content {
   margin-top: 30px;
-  flex-basis: 33.33%;
+  flex-basis: 25%;
   padding: 0 15px;
 }
 @media only screen and (max-width: 767px) {
